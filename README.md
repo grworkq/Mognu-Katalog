@@ -19,7 +19,7 @@ A modular Command Line Interface (CLI) application built in **Python** powered b
 ## 📁 Project Structure
 
 ```
-├── main_2.py      # Main entry point and CLI menu logic
+├── main.py      # Main entry point and CLI menu logic
 ├── database.py    # SQLite database handlers, CRUD operations & analytical queries
 ├── auth.py        # Cryptographic password hashing and verification module (SHA-256)
 ├── home.py        # Customer menu, catalog navigation, and cart management
