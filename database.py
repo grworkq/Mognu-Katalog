@@ -142,7 +142,7 @@ def check_user(username_or_email, password):
     else:
         return False, None
 
-def view_categories():]
+def view_categories():
     with get_connection() as conn:
         c = conn.cursor()
         c.execute('SELECT id, name, description FROM categories')
